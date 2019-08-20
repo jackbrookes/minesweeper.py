@@ -182,7 +182,7 @@
 
     def start(width, height, n_mines):
         root = tk.Tk()
-        root.wm_title("Minespeeper.py")
+        root.wm_title("Minesweeper.py")
         restart_btn = tk.Button(root, text="Restart")
         restart_btn.pack(fill=tk.BOTH, expand=1)
         minegrid = MineGrid(root, width, height, n_mines)
